@@ -9,3 +9,16 @@ $('.overlay').on('click', function(){
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });
+
+
+
+
+var menu = $('overlay');
+
+var watcher = scrollMonitor.create( menu );
+
+watcher.lock();
+
+watcher.stateChange(function() {
+  $(menu).toggleClass('scrolled', this.isAboveViewport)
+});
