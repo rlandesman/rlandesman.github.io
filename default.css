@@ -284,7 +284,7 @@
 		line-height: 40px;
 		border-radius: 20px;
 		text-align: center;
-		color: #272925;
+		color: #588C7E;
 	}
 	
 	.button-small
@@ -773,6 +773,10 @@ nav ul li a:hover {
 .button a {
 	text-decoration:none;
 }
+.button:hover { 
+	color: #FFF;
+ }
+
 .btn-open:after {
 	color:#961010;
 	content:"\f0c9";
@@ -783,7 +787,7 @@ nav ul li a:hover {
 	-o-transition:all .2s linear 0s;
 }
 .btn-open:hover:after {
-	color:#34B484;
+	color:#588C7E;
 }
 .btn-close:after {
 	color:#fff;
@@ -795,7 +799,7 @@ nav ul li a:hover {
 	-o-transition:all .2s linear 0s;
 }
 .btn-close:hover:after {
-	color: #34B484;
+	color: #588C7E;
 }
 /*overlay*/
 .overlay {
